@@ -1,0 +1,8 @@
+# 📦 1. 数据库相关配置
+mysql:
+  host: 192.168.209.128
+  port: 3307
+  db: trade_item
+  user: root
+  pwd: 123 # 你的本机密码
+

@@ -1,0 +1,13 @@
+com\secondhand\item\dto\ItemDetailDTO.class
+com\secondhand\item\dto\LockStockReqDTO.class
+com\secondhand\item\dto\ItemSkuDTO.class
+com\secondhand\item\dto\ItemSpuDTO.class
+com\secondhand\item\enums\SpuStatusEnum.class
+com\secondhand\item\enums\SkuStatusEnum.class
+com\secondhand\item\dto\ItemSyncEsDTO.class
+com\secondhand\item\client\ItemFeignClient.class
+com\secondhand\item\enums\CategoryLevelEnum.class
+com\secondhand\item\config\ItemFeignAutoConfiguration.class
+com\secondhand\item\dto\ItemDetailRespDTO.class
+com\secondhand\item\enums\CategoryStatusEnum.class
+com\secondhand\item\enums\ConditionLevelEnum.class

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.secondhand.order.mapper.TradeOrderMapper">
+
+    <resultMap id="BaseResultMap" type="com.secondhand.order.pojo.domain.TradeOrder">
+            <id property="id" column="id" />
+            <result property="orderNo" column="order_no" />
+            <result property="buyerId" column="buyer_id" />
+            <result property="sellerId" column="seller_id" />
+            <result property="itemSpuId" column="item_spu_id" />
+            <result property="itemSkuId" column="item_sku_id" />
+            <result property="offerId" column="offer_id" />
+            <result property="totalAmount" column="total_amount" />
+            <result property="freightAmount" column="freight_amount" />
+            <result property="offerAmount" column="offer_amount" />
+            <result property="payAmount" column="pay_amount" />
+            <result property="status" column="status" />
+            <result property="sourceAddressId" column="source_address_id" />
+            <result property="receiverNameSnapshot" column="receiver_name_snapshot" />
+            <result property="receiverPhoneSnapshot" column="receiver_phone_snapshot" />
+            <result property="receiverAddressSnapshot" column="receiver_address_snapshot" />
+            <result property="createTime" column="create_time" />
+            <result property="updateTime" column="update_time" />
+            <result property="isDeleted" column="is_deleted" />
+            <result property="payTime" column="pay_time" />
+            <result property="consignTime" column="consign_time" />
+            <result property="finishTime" column="finish_time" />
+            <result property="closeTime" column="close_time" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,order_no,buyer_id,seller_id,item_spu_id,item_sku_id,
+        offer_id,total_amount,freight_amount,offer_amount,pay_amount,
+        status,source_address_id,receiver_name_snapshot,receiver_phone_snapshot,receiver_address_snapshot,
+        create_time,update_time,is_deleted,pay_time,consign_time,
+        finish_time,close_time
+    </sql>
+</mapper>

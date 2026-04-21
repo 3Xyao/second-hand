@@ -1,0 +1,8 @@
+feign:
+  okhttp:
+    enabled: true # 开启 OkHttp 替换 JDK 默认 HttpURLConnection
+  client:
+    config:
+      default:
+        connectTimeout: 5000 # 连接超时
+        readTimeout: 5000    # 读取超时

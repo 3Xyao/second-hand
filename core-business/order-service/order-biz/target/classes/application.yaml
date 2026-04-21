@@ -1,0 +1,56 @@
+server:
+  port: 8240
+
+spring:
+  application:
+    name: order-service
+
+seata:
+  enabled: true
+  application-id: order-service
+  tx-service-group: default_tx_group
+
+  # 1. 事务分组映射
+  service:
+    vgroup-mapping:
+      default_tx_group: "default"
+
+  # 2. 注册中心 (Registry)：去 Nacos 找 Seata 服务端
+  registry:
+    type: nacos
+    nacos:
+      server-addr: 192.168.209.128:8848
+      namespace: "" # 注意是 ID，不是名称
+      group: SEATA_GROUP
+      application: seata-server
+      # --- 重点：Nacos 认证信息 ---
+      username: nacos     # 你的 Nacos 用户名
+      password: nacos # 你的 Nacos 密码
+
+  # 3. 配置中心 (Config)：从 Nacos 读取 Seata 运行参数
+  config:
+    type: file
+    nacos:
+      server-addr: 192.168.209.128:8848
+      namespace: "你的命名空间ID"
+      group: SEATA_GROUP
+      # --- 重点：Nacos 认证信息 ---
+      username: nacos
+      password: nacos
+
+  # 4. Seata 客户端安全性配置 (可选)
+  # 如果你的 Seata Server 端开启了配置：seata.security.client-check-enabled=true
+  # 那么客户端必须配置 access-key 和 secret-key 才能建立连接
+  client:
+    security:
+      access-key: root
+      secret-key: 123
+    rm:
+      report-success-enable: true
+      async-commit-buffer-limit: 10000
+    tm:
+      commit-retry-count: 5
+      rollback-retry-count: 5
+
+# 5. 别忘了 undo_log 依赖的数据源配置
+# Seata 会自动代理数据源，但你必须确保数据库有 undo_log 表

@@ -1,0 +1,6 @@
+com\secondhand\mybatis\config\MybatisPlusConfig.class
+com\secondhand\mybatis\handler\BaseEnumTypeHandler.class
+com\secondhand\mybatis\base\BaseAuditPO.class
+com\secondhand\mybatis\handler\MyMetaObjectHandler.class
+com\secondhand\mybatis\base\BaseTimePO.class
+com\secondhand\mybatis\enums\IsDeleted.class

@@ -1,0 +1,15 @@
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\pojo\dto\AdminLoginReqDTO.java
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\pojo\vo\AdminLoginVO.java
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\service\impl\AuthServiceImpl.java
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\security\LoginUser.java
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\config\SecurityConfig.java
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\controller\AdminAuthController.java
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\service\AdminAuthService.java
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\service\AuthService.java
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\service\impl\AdminAuthServiceImpl.java
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\pojo\dto\LoginReqDTO.java
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\service\impl\UserDetailsServiceImpl.java
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\controller\AuthController.java
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\pojo\vo\LoginVO.java
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\controller\AuthPublicController.java
+C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\auth-service\src\main\java\com\secondhand\auth\AuthServiceApplication.java

@@ -1,0 +1,5 @@
+com\secondhand\order\dto\OrderPayNotifyDTO.class
+com\secondhand\order\dto\OrderEventPayload.class
+com\secondhand\order\enums\OfferStatusEnum.class
+com\secondhand\order\enums\OrderEventEnum.class
+com\secondhand\order\enums\OrderStatusEnum.class

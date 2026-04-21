@@ -1,0 +1,17 @@
+com\secondhand\auth\service\impl\UserDetailsServiceImpl.class
+com\secondhand\auth\controller\AuthPublicController.class
+com\secondhand\auth\pojo\vo\LoginVO$LoginVOBuilder.class
+com\secondhand\auth\service\AuthService.class
+com\secondhand\auth\pojo\vo\LoginVO.class
+com\secondhand\auth\security\LoginUser.class
+com\secondhand\auth\service\AdminAuthService.class
+com\secondhand\auth\service\impl\AdminAuthServiceImpl.class
+com\secondhand\auth\service\impl\AuthServiceImpl.class
+com\secondhand\auth\pojo\dto\LoginReqDTO.class
+com\secondhand\auth\AuthServiceApplication.class
+com\secondhand\auth\pojo\vo\AdminLoginVO$AdminLoginVOBuilder.class
+com\secondhand\auth\controller\AdminAuthController.class
+com\secondhand\auth\config\SecurityConfig.class
+com\secondhand\auth\controller\AuthController.class
+com\secondhand\auth\pojo\dto\AdminLoginReqDTO.class
+com\secondhand\auth\pojo\vo\AdminLoginVO.class

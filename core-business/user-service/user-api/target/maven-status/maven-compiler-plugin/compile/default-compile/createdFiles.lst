@@ -1,0 +1,11 @@
+com\secondhand\user\dto\AddressDTO.class
+com\secondhand\user\enums\GenderEnum.class
+com\secondhand\user\dto\UserForItemDetailReqDTO.class
+com\secondhand\user\dto\UserSyncEsDTO.class
+com\secondhand\user\enums\UserStatusEnum.class
+com\secondhand\user\client\UserFeignClient.class
+com\secondhand\user\client\AddressFeignClient.class
+com\secondhand\user\dto\UserForItemDetailRespDTO.class
+com\secondhand\user\dto\UserForItemDetailReqDTO$UserForItemDetailReqDTOBuilder.class
+com\secondhand\user\config\UserFeignAutoConfiguration.class
+com\secondhand\user\dto\UserDTO.class

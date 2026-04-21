@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: admin-service
+  profiles:
+    active: ${ENV.MODE:local}
+  cloud:
+    nacos:
+      server-addr: ${NACOS_HOST:192.168.209.128:8848}
+      username: ${NACOS_USER:nacos}
+      password: ${NACOS_PWD:nacos}
+      config:
+        file-extension: yaml
+        shared-configs:
+          - data-id: mysql-config.yaml
+          - data-id: jwt-config.yaml
+

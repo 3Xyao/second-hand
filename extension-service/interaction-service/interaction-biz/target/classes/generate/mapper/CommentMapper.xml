@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.secondhand.interaction.mapper.CommentMapper">
+
+    <resultMap id="BaseResultMap" type="com.secondhand.interaction.pojo.domain.Comment">
+            <id property="id" column="id" />
+            <result property="userId" column="user_id" />
+            <result property="bizType" column="biz_type" />
+            <result property="bizId" column="biz_id" />
+            <result property="parentId" column="parent_id" />
+            <result property="replyToUserId" column="reply_to_user_id" />
+            <result property="content" column="content" />
+            <result property="likeCount" column="like_count" />
+            <result property="isDeleted" column="is_deleted" />
+            <result property="createTime" column="create_time" />
+            <result property="updateTime" column="update_time" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,user_id,biz_type,biz_id,parent_id,reply_to_user_id,
+        content,like_count,is_deleted,create_time,update_time
+    </sql>
+</mapper>

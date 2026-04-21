@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.secondhand.item.mapper.ItemSkuMapper">
+
+    <sql id="Base_Column_List">
+        id,spu_id,title,images,price,publish_price,
+        stock,locked_stock,version,own_spec,status,
+        create_time,update_time
+    </sql>
+</mapper>

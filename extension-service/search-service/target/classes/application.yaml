@@ -1,0 +1,25 @@
+server:
+  port: 8088
+
+es:
+  index:
+    item: item_index  # 将索引名配置化
+
+spring:
+  RabbitMQ:
+    host: 192.168.209.128 # 如果在 IDE 启动写 localhost，如果在 Docker 启动写 rabbitmq
+    port: 5672
+    username: root # 确保与 .env 一致
+    password: 123
+    virtual-host: /
+    listener:
+      simple:
+        retry:
+          enabled: true
+          max-attempts: 3
+
+  elasticsearch:
+    # 注意这里带上 http:// 前缀，方便后面代码直接解析
+    uris: http://192.168.209.128:9200
+    username: elastic
+    password: es123456 # 读取你 docker/环境 中的密码
