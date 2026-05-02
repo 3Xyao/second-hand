@@ -11,25 +11,90 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api-service" />
+      </profile>
+      <profile name="Annotation profile for Archetype - second-hand_trading_platform" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.5.Final/mapstruct-processor-1.5.5.Final.jar" />
+        </processorPath>
+        <module name="template-biz" />
+        <module name="order-biz" />
+        <module name="item-biz" />
+        <module name="template-api" />
+        <module name="admin-api" />
+        <module name="commom-mq" />
+        <module name="order-api" />
+        <module name="admin-biz" />
+        <module name="payment-api" />
+        <module name="message-biz" />
+        <module name="common-mybatis" />
+        <module name="payment-biz" />
         <module name="auth-service" />
-        <module name="common-service" />
-        <module name="common-web-service" />
+        <module name="user-api" />
+        <module name="search-service" />
         <module name="gateway-service" />
-        <module name="user-service" />
-        <module name="admin-service" />
+        <module name="message-api" />
+        <module name="common-cloud" />
+        <module name="interaction-api" />
+        <module name="common-web" />
+        <module name="item-api" />
+        <module name="user-biz" />
+        <module name="interaction-biz" />
+        <module name="common-core" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-api" target="17" />
+      <module name="template-api (1)" target="17" />
+      <module name="template-biz (1)" target="17" />
+      <module name="template-service (1)" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin-api" options="-parameters" />
+      <module name="admin-biz" options="-parameters" />
       <module name="admin-service" options="-parameters" />
-      <module name="api-service" options="-parameters" />
       <module name="auth-service" options="-parameters" />
-      <module name="common-service" options="-parameters" />
-      <module name="common-web-service" options="-parameters" />
+      <module name="commom-mq" options="-parameters" />
+      <module name="common-api" options="-parameters" />
+      <module name="common-cloud" options="-parameters" />
+      <module name="common-core" options="-parameters" />
+      <module name="common-mybatis" options="-parameters" />
+      <module name="common-web" options="-parameters" />
+      <module name="core-business" options="-parameters" />
+      <module name="extension-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
-      <module name="second-hand_trading_platform" options="" />
+      <module name="infrastructure" options="-parameters" />
+      <module name="interaction-api" options="-parameters" />
+      <module name="interaction-biz" options="-parameters" />
+      <module name="interaction-service" options="-parameters" />
+      <module name="item-api" options="-parameters" />
+      <module name="item-biz" options="-parameters" />
+      <module name="item-service" options="-parameters" />
+      <module name="message-api" options="-parameters" />
+      <module name="message-biz" options="-parameters" />
+      <module name="message-service" options="-parameters" />
+      <module name="order-api" options="-parameters" />
+      <module name="order-biz" options="-parameters" />
+      <module name="order-service" options="-parameters" />
+      <module name="payment-api" options="-parameters" />
+      <module name="payment-biz" options="-parameters" />
+      <module name="payment-service" options="-parameters" />
+      <module name="search-service" options="-parameters" />
+      <module name="second-hand_trading_platform" options="-parameters" />
+      <module name="template-api" options="-parameters" />
+      <module name="template-api (1)" options="-parameters" />
+      <module name="template-biz" options="-parameters" />
+      <module name="template-biz (1)" options="-parameters" />
+      <module name="template-service" options="-parameters" />
+      <module name="template-service (1)" options="-parameters" />
+      <module name="user-api" options="-parameters" />
+      <module name="user-biz" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>

@@ -5,7 +5,6 @@
       <database-info product="MySQL" version="8.0.33" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-9.5.0 (Revision: a7b3c94f50efbddb9f0dd69b3e0d1aaa25305cd6)" dbms="MYSQL" exact-version="8.0.33" exact-driver-version="9.5">
         <extra-name-characters>$</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
-        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
       </database-info>
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
@@ -15,7 +14,26 @@
           <node kind="schema">
             <name qname="@" />
             <name qname="trade_admin" />
+            <name qname="trade_interaction" />
+            <name qname="trade_item" />
+            <name qname="trade_order" />
+            <name qname="trade_payment" />
+            <name qname="trade_search" />
             <name qname="trade_user" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="trade_mongodb" uuid="589726b5-0c7d-488c-acda-f66252f3c1b2">
+      <database-info product="Mongo DB" version="6.0.27" jdbc-version="4.2" driver-name="MongoDB JDBC Driver" driver-version="1.20" dbms="MONGO" exact-version="6.0.27" exact-driver-version="1.20" />
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="trade_message" />
           </node>
         </introspection-scope>
       </schema-mapping>

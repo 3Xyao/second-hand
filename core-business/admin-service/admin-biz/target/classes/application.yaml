@@ -3,6 +3,6 @@ server:
 
 mybatis-plus:
   # 注意：如果是 resources/mapper/SysRoleMapper.xml，配置如下
-  mapper-locations: classpath:mapper/*.xml
+  mapper-locations: classpath*:mapper/*.xml,classpath*:generator/mapper/*.xml
   # 如果你有子目录，建议用通配符
   # mapper-locations: classpath:mapper/**/*.xml

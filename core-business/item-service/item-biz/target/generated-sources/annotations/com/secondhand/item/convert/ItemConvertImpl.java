@@ -1,14 +1,16 @@
 package com.secondhand.item.convert;
 
 import com.secondhand.item.dto.ItemDetailDTO;
-import com.secondhand.item.dto.resp.ItemDetailRespDTO;
 import com.secondhand.item.dto.ItemSkuDTO;
 import com.secondhand.item.dto.ItemSpuDTO;
 import com.secondhand.item.dto.ItemSyncEsDTO;
+import com.secondhand.item.dto.SaleAttrItem;
+import com.secondhand.item.dto.admin.ItemAdminRespDTO;
+import com.secondhand.item.dto.resp.ItemDetailRespDTO;
+import com.secondhand.item.enums.SkuStatusEnum;
 import com.secondhand.item.pojo.domain.Category;
 import com.secondhand.item.pojo.domain.ItemSku;
 import com.secondhand.item.pojo.domain.ItemSpu;
-import com.secondhand.item.dto.SaleAttrItem;
 import com.secondhand.item.pojo.dto.ItemPublishDTO;
 import com.secondhand.item.pojo.dto.ItemSkuPublishDTO;
 import com.secondhand.item.pojo.dto.ItemSkuSyncEsDTO;
@@ -23,8 +25,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-04-15T13:20:40+0800",
-    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 17.0.12 (Oracle Corporation)"
+    date = "2026-05-02T12:03:07+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.46.0.v20260407-0427, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class ItemConvertImpl implements ItemConvert {
@@ -77,13 +79,13 @@ public class ItemConvertImpl implements ItemConvert {
         ItemSpu itemSpu = new ItemSpu();
 
         if ( dto != null ) {
-            itemSpu.setTitle( dto.getTitle() );
-            itemSpu.setDescription( dto.getDescription() );
             itemSpu.setCategoryId( dto.getCategoryId() );
+            itemSpu.setDescription( dto.getDescription() );
             List<SaleAttrItem> list = dto.getSaleAttrs();
             if ( list != null ) {
                 itemSpu.setSaleAttrs( new ArrayList<SaleAttrItem>( list ) );
             }
+            itemSpu.setTitle( dto.getTitle() );
         }
         itemSpu.setSellerId( sellerId );
 
@@ -156,6 +158,45 @@ public class ItemConvertImpl implements ItemConvert {
     }
 
     @Override
+    public ItemAdminRespDTO toItemAdminRespDTO(ItemSpu spu) {
+        if ( spu == null ) {
+            return null;
+        }
+
+        ItemAdminRespDTO itemAdminRespDTO = new ItemAdminRespDTO();
+
+        itemAdminRespDTO.setId( spu.getId() );
+        itemAdminRespDTO.setTitle( spu.getTitle() );
+        itemAdminRespDTO.setSellerId( spu.getSellerId() );
+        itemAdminRespDTO.setOriginalPrice( spu.getOriginalPrice() );
+        itemAdminRespDTO.setProvince( spu.getProvince() );
+        itemAdminRespDTO.setCity( spu.getCity() );
+        itemAdminRespDTO.setImages( spu.getImages() );
+        itemAdminRespDTO.setViewCount( spu.getViewCount() );
+        itemAdminRespDTO.setFavoriteCount( spu.getFavoriteCount() );
+        itemAdminRespDTO.setCommentCount( spu.getCommentCount() );
+        itemAdminRespDTO.setCreateTime( spu.getCreateTime() );
+
+        itemAdminRespDTO.setStatus( spu.getStatus() != null ? spu.getStatus().getCode() : null );
+
+        return itemAdminRespDTO;
+    }
+
+    @Override
+    public List<ItemAdminRespDTO> toItemAdminRespDTOList(List<ItemSpu> itemSpuList) {
+        if ( itemSpuList == null ) {
+            return null;
+        }
+
+        List<ItemAdminRespDTO> list = new ArrayList<ItemAdminRespDTO>( itemSpuList.size() );
+        for ( ItemSpu itemSpu : itemSpuList ) {
+            list.add( toItemAdminRespDTO( itemSpu ) );
+        }
+
+        return list;
+    }
+
+    @Override
     public ItemSku toItemSku(ItemSkuPublishDTO dto, ItemSpu spu) {
         if ( dto == null && spu == null ) {
             return null;
@@ -167,11 +208,11 @@ public class ItemConvertImpl implements ItemConvert {
             itemSku.setPublishPrice( dto.getPrice() );
             itemSku.setPrice( dto.getPrice() );
             itemSku.setImages( dto.getImages() );
-            itemSku.setStock( dto.getStock() );
             Map<String, String> map = dto.getOwnSpec();
             if ( map != null ) {
                 itemSku.setOwnSpec( new LinkedHashMap<String, String>( map ) );
             }
+            itemSku.setStock( dto.getStock() );
         }
         if ( spu != null ) {
             itemSku.setSpuId( spu.getId() );
@@ -181,7 +222,7 @@ public class ItemConvertImpl implements ItemConvert {
         }
         itemSku.setLockedStock( 0 );
         itemSku.setVersion( 1 );
-        itemSku.setStatus( com.secondhand.item.enums.SkuStatusEnum.ON_SHELVES );
+        itemSku.setStatus( SkuStatusEnum.ON_SHELVES );
         itemSku.setTitle( spu.getTitle() + " " + String.join(" ", dto.getOwnSpec().values()) );
 
         return itemSku;

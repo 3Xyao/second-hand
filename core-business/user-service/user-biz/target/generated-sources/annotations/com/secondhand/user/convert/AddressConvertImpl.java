@@ -12,8 +12,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-04-14T19:19:32+0800",
-    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 17.0.12 (Oracle Corporation)"
+    date = "2026-05-02T12:03:15+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.46.0.v20260407-0427, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class AddressConvertImpl implements AddressConvert {
@@ -47,15 +47,15 @@ public class AddressConvertImpl implements AddressConvert {
 
         Address address = new Address();
 
+        address.setCity( addressDTO.getCity() );
+        address.setDetailAddress( addressDTO.getDetailAddress() );
+        address.setDistrict( addressDTO.getDistrict() );
         address.setId( addressDTO.getId() );
-        address.setUserId( addressDTO.getUserId() );
+        address.setIsDefault( addressDTO.getIsDefault() );
+        address.setProvince( addressDTO.getProvince() );
         address.setReceiverName( addressDTO.getReceiverName() );
         address.setReceiverPhone( addressDTO.getReceiverPhone() );
-        address.setProvince( addressDTO.getProvince() );
-        address.setCity( addressDTO.getCity() );
-        address.setDistrict( addressDTO.getDistrict() );
-        address.setDetailAddress( addressDTO.getDetailAddress() );
-        address.setIsDefault( addressDTO.getIsDefault() );
+        address.setUserId( addressDTO.getUserId() );
 
         return address;
     }
@@ -69,13 +69,13 @@ public class AddressConvertImpl implements AddressConvert {
         Address address = new Address();
 
         if ( reqDTO != null ) {
+            address.setCity( reqDTO.getCity() );
+            address.setDetailAddress( reqDTO.getDetailAddress() );
+            address.setDistrict( reqDTO.getDistrict() );
+            address.setIsDefault( reqDTO.getIsDefault() );
+            address.setProvince( reqDTO.getProvince() );
             address.setReceiverName( reqDTO.getReceiverName() );
             address.setReceiverPhone( reqDTO.getReceiverPhone() );
-            address.setProvince( reqDTO.getProvince() );
-            address.setCity( reqDTO.getCity() );
-            address.setDistrict( reqDTO.getDistrict() );
-            address.setDetailAddress( reqDTO.getDetailAddress() );
-            address.setIsDefault( reqDTO.getIsDefault() );
         }
         address.setUserId( userId );
 
@@ -91,12 +91,12 @@ public class AddressConvertImpl implements AddressConvert {
         Address address = new Address();
 
         if ( reqDTO != null ) {
+            address.setCity( reqDTO.getCity() );
+            address.setDetailAddress( reqDTO.getDetailAddress() );
+            address.setDistrict( reqDTO.getDistrict() );
+            address.setProvince( reqDTO.getProvince() );
             address.setReceiverName( reqDTO.getReceiverName() );
             address.setReceiverPhone( reqDTO.getReceiverPhone() );
-            address.setProvince( reqDTO.getProvince() );
-            address.setCity( reqDTO.getCity() );
-            address.setDistrict( reqDTO.getDistrict() );
-            address.setDetailAddress( reqDTO.getDetailAddress() );
         }
         address.setUserId( userId );
 
@@ -124,14 +124,14 @@ public class AddressConvertImpl implements AddressConvert {
 
         AddressRespDTO addressRespDTO = new AddressRespDTO();
 
+        addressRespDTO.setCity( address.getCity() );
+        addressRespDTO.setDetailAddress( address.getDetailAddress() );
+        addressRespDTO.setDistrict( address.getDistrict() );
         addressRespDTO.setId( address.getId() );
+        addressRespDTO.setIsDefault( address.getIsDefault() );
+        addressRespDTO.setProvince( address.getProvince() );
         addressRespDTO.setReceiverName( address.getReceiverName() );
         addressRespDTO.setReceiverPhone( address.getReceiverPhone() );
-        addressRespDTO.setProvince( address.getProvince() );
-        addressRespDTO.setCity( address.getCity() );
-        addressRespDTO.setDistrict( address.getDistrict() );
-        addressRespDTO.setDetailAddress( address.getDetailAddress() );
-        addressRespDTO.setIsDefault( address.getIsDefault() );
         addressRespDTO.setUpdateTime( address.getUpdateTime() );
 
         return addressRespDTO;

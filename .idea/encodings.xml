@@ -6,9 +6,53 @@
     <file url="file://$PROJECT_DIR$/auth-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-web-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/admin-service/admin-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/admin-service/admin-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/admin-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/admin-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/item-service/item-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/item-service/item-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/item-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/item-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/order-service/order-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/order-service/order-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/payment-service/payment-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/payment-service/payment-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/payment-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/payment-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/user-service/user-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/core-business/user-service/user-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extension-service/interaction-service/interaction-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extension-service/interaction-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extension-service/interaction-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extension-service/message-service/message-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extension-service/message-service/message-biz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extension-service/message-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extension-service/message-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extension-service/search-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extension-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/extension-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/commom-mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/common-cloud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/common-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/common-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/infrastructure/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/template-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/template-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/template-service/template-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/template-service/template-biz/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service/src/main/java" charset="UTF-8" />
     <file url="file://$APPLICATION_HOME_DIR$/bin/src/main/java" charset="UTF-8" />
   </component>

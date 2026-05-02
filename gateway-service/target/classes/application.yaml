@@ -1,2 +1,22 @@
 server:
   port: 8080
+
+# 注意：这里的前缀必须和你 Java 代码里写的完全一致
+getaway:
+  security:
+    # 1. 白名单 (whitelist)：允许任何人访问的接口，通常是不需要 Token 的公开接口
+    whitelist:
+      - /auth/login                 # 登录接口
+      - /auth/admin/login
+      - /auth/register              # 注册接口
+      - /**/public/** # 所有公共资源的通配符
+      - /v3/api-docs/** # Swagger 接口文档
+
+    # 2. 内部调用名单 (innerPatterns)：仅限微服务之间内部调用的接口，外部网关通常会拦截
+    innerPatterns:
+      - /**/inner/** # 匹配所有带有 /inner/ 的路径
+
+    # 3. 管理员名单 (adminPatterns)：仅限管理员角色或特定权限访问的接口
+    adminPatterns:
+      - /admin/** # 后台管理相关接口
+      - /system/** # 系统设置相关接口

@@ -4,7 +4,472 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d69a687-39d9-4fd5-b691-6bea9fbe0e9d" name="Changes" comment="" />
+    <list default="true" id="8d69a687-39d9-4fd5-b691-6bea9fbe0e9d" name="Changes" comment="初次提交">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8c91bc6-983a-40ab-97e6-5da19549c46f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f8c91bc6-983a-40ab-97e6-5da19549c46f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f8c91bc6-983a-40ab-97e6-5da19549c46f/storage_v2/_src_/schema/trade-item.3OkGbQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f8c91bc6-983a-40ab-97e6-5da19549c46f/storage_v2/_src_/schema/trade-item.3OkGbQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/AdminServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/domain/SysMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/domain/SysRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/domain/SysRoleMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/domain/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/domain/SysUserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/mapper/SysMenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/mapper/SysRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/mapper/SysRoleMenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/mapper/SysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/mapper/SysUserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/service/SysMenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/service/SysRoleMenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/service/SysRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/service/SysUserRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/service/SysUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/service/impl/SysMenuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/service/impl/SysRoleMenuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/service/impl/SysRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/service/impl/SysUserRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/java/com/internship/admin/service/impl/SysUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/resources/application-local.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/resources/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/resources/generator/mapper/SysMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/resources/generator/mapper/SysRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/resources/generator/mapper/SysRoleMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/resources/generator/mapper/SysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/src/main/resources/generator/mapper/SysUserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/target/classes/application-local.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/target/classes/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-service/target/classes/com/internship/admin/AdminServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-service/src/main/java/com.internship.api/client/AdminFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-service/src/main/java/com.internship.api/client/UserFeignClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-service/src/main/java/com.internship.api/domain/dto/SysUserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-service/src/main/java/com.internship.api/domain/dto/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-service/target/classes/com/internship/api/client/UserFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-service/target/classes/com/internship/api/domain/dto/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/internship/auth/AuthServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/internship/auth/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/internship/auth/controller/AdminAuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/internship/auth/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/internship/auth/domain/dto/LoginReqDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/internship/auth/domain/vo/LoginVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/internship/auth/security/LoginUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/internship/auth/service/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/internship/auth/service/impl/AuthServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/com/internship/auth/service/impl/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/internship/auth/AuthServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/internship/auth/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/internship/auth/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/internship/auth/domain/dto/LoginReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/internship/auth/domain/vo/LoginVO$LoginVOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/internship/auth/domain/vo/LoginVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/internship/auth/service/AuthService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/internship/auth/service/impl/AuthServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/AuthServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/AuthServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/controller/AdminAuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/controller/AdminAuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/controller/AuthPublicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/controller/AuthPublicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/pojo/dto/AdminLoginReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/pojo/dto/LoginReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/pojo/dto/LoginReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/pojo/vo/AdminLoginVO$AdminLoginVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/pojo/vo/AdminLoginVO$AdminLoginVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/pojo/vo/AdminLoginVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/pojo/vo/AdminLoginVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/pojo/vo/LoginVO$LoginVOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/pojo/vo/LoginVO$LoginVOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/pojo/vo/LoginVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/pojo/vo/LoginVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/security/LoginUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/security/LoginUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/service/AdminAuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/service/AdminAuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/service/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/service/impl/AdminAuthServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/service/impl/AdminAuthServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/service/impl/AuthServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/service/impl/AuthServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/service/impl/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/com/secondhand/auth/service/impl/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com.internship.common/exception/BizException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com.internship.common/result/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com.internship.common/result/ResultCodeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com.internship.common/utils/JwtUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/java/com.internship.common/utils/UserContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/internship/common/exception/BizException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/internship/common/result/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/internship/common/result/ResultCodeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/internship/common/utils/JwtUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-service/target/classes/com/internship/common/utils/UserContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web-service/src/main/java/com/internship/common_web/config/CommonWebAutoConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web-service/src/main/java/com/internship/common_web/handler/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web-service/src/main/java/com/internship/common_web/interceptor/UserInfoInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web-service/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web-service/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web-service/target/classes/com/internship/common_web/config/CommonWebAutoConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web-service/target/classes/com/internship/common_web/handler/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-web-service/target/classes/com/internship/common_web/interceptor/UserInfoInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-api/target/classes/com/secondhand/admin/client/AdminFeignClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-api/target/classes/com/secondhand/admin/client/AdminFeignClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-api/target/classes/com/secondhand/admin/config/AdminFeignAutoConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-api/target/classes/com/secondhand/admin/config/AdminFeignAutoConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-api/target/classes/com/secondhand/admin/dto/AuthQueryDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-api/target/classes/com/secondhand/admin/dto/AuthQueryDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-api/target/classes/com/secondhand/admin/dto/SysUserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-api/target/classes/com/secondhand/admin/dto/SysUserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/AdminServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/AdminServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/controller/AdminInnerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/controller/AdminInnerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/mapper/SysMenuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/mapper/SysMenuMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/mapper/SysRoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/mapper/SysRoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/mapper/SysRoleMenuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/mapper/SysRoleMenuMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/mapper/SysUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/mapper/SysUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/mapper/SysUserRoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/mapper/SysUserRoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/pojo/domain/SysMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/pojo/domain/SysMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/pojo/domain/SysRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/pojo/domain/SysRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/pojo/domain/SysRoleMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/pojo/domain/SysRoleMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/pojo/domain/SysUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/pojo/domain/SysUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/pojo/domain/SysUserRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/pojo/domain/SysUserRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/SysMenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/SysMenuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/SysRoleMenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/SysRoleMenuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/SysRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/SysRoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/SysUserRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/SysUserRoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/SysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/SysUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/impl/SysMenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/impl/SysMenuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/impl/SysRoleMenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/impl/SysRoleMenuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/impl/SysRoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/impl/SysRoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/impl/SysUserRoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/impl/SysUserRoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/impl/SysUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/classes/com/secondhand/admin/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/admin-service/admin-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/client/ItemFeignClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/client/ItemFeignClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/config/ItemFeignAutoConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/config/ItemFeignAutoConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/dto/ItemDetailDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/dto/ItemDetailDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/dto/ItemDetailRespDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/dto/ItemSkuDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/dto/ItemSkuDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/dto/ItemSpuDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/dto/ItemSpuDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/dto/ItemSyncEsDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/dto/ItemSyncEsDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/dto/LockStockReqDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/enums/CategoryLevelEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/enums/CategoryLevelEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/enums/CategoryStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/enums/CategoryStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/enums/ConditionLevelEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/enums/ConditionLevelEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/enums/SkuStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/enums/SkuStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/enums/SpuStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-api/target/classes/com/secondhand/item/enums/SpuStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/ItemServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/ItemServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/controller/ItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/controller/ItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/controller/ItemInnerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/controller/ItemInnerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/convert/ItemConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/convert/ItemConvert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/convert/ItemConvertImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/convert/ItemConvertImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/listener/ItemViewMessageListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/listener/ItemViewMessageListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/mapper/CategoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/mapper/CategoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/mapper/ItemSkuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/mapper/ItemSkuMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/mapper/ItemSpuMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/mapper/ItemSpuMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/domain/Category$AttrTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/domain/Category$AttrTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/domain/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/domain/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/domain/ItemSku.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/domain/ItemSku.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/domain/ItemSpu.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/domain/ItemSpu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/domain/SaleAttrItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/dto/ItemPublishDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/dto/ItemPublishDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/dto/ItemSkuPublishDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/dto/ItemSkuPublishDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/dto/ItemSkuSyncEsDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/pojo/dto/ItemSkuSyncEsDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/ItemSkuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/ItemSkuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/ItemSpuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/ItemSpuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/impl/ItemSkuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/impl/ItemSkuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/impl/ItemSpuServiceImpl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/impl/ItemSpuServiceImpl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/impl/ItemSpuServiceImpl$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/impl/ItemSpuServiceImpl$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/impl/ItemSpuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/classes/com/secondhand/item/service/impl/ItemSpuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/generated-sources/annotations/com/secondhand/item/convert/ItemConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/item-service/item-biz/target/generated-sources/annotations/com/secondhand/item/convert/ItemConvertImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/item-service/item-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-api/target/classes/com/secondhand/order/dto/OrderPayNotifyDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-api/target/classes/com/secondhand/order/dto/OrderPayNotifyDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-api/target/classes/com/secondhand/order/enums/OfferStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-api/target/classes/com/secondhand/order/enums/OfferStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-api/target/classes/com/secondhand/order/enums/OrderEventEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-api/target/classes/com/secondhand/order/enums/OrderEventEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-api/target/classes/com/secondhand/order/enums/OrderStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-api/target/classes/com/secondhand/order/enums/OrderStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/OrderServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/OrderServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/config/OrderStateMachineConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/config/OrderStateMachineConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/controller/OrderAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/controller/OrderAdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/controller/OrderInnerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/controller/OrderInnerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/controller/OrderPublicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/controller/OrderPublicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/convert/OfferConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/convert/OfferConvert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/convert/OfferConvertImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/convert/OfferConvertImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/convert/OrderConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/convert/OrderConvert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/convert/OrderConvertImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/convert/OrderConvertImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/mapper/OfferMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/mapper/OfferMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/mapper/TradeOrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/mapper/TradeOrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/context/OfferCreateContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/context/OfferCreateContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/context/OrderCreateContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/context/OrderCreateContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/context/OrderStateContext$OrderStateContextBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/context/OrderStateContext$OrderStateContextBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/context/OrderStateContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/context/OrderStateContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/domain/Offer.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/domain/Offer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/domain/TradeOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/domain/TradeOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/dto/OfferCreateReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/dto/OfferCreateReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/dto/OrderCancelDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/dto/OrderCancelDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/dto/OrderCreateReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/dto/OrderCreateReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/dto/OrderDeliverDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/dto/OrderDeliverDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/dto/OrderReceiveDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/pojo/dto/OrderReceiveDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/service/OfferService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/service/OfferService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/service/TradeOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/service/TradeOrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/service/impl/OfferServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/service/impl/OfferServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/service/impl/TradeOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/classes/com/secondhand/order/service/impl/TradeOrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/generated-sources/annotations/com/secondhand/order/convert/OfferConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/generated-sources/annotations/com/secondhand/order/convert/OfferConvertImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/generated-sources/annotations/com/secondhand/order/convert/OrderConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/order-service/order-biz/target/generated-sources/annotations/com/secondhand/order/convert/OrderConvertImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/order-service/order-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/client/UserFeignClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/client/UserFeignClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/config/UserFeignAutoConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/config/UserFeignAutoConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/dto/AddressDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/dto/AddressDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/dto/UserForItemDetailReqDTO$UserForItemDetailReqDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/dto/UserForItemDetailReqDTO$UserForItemDetailReqDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/dto/UserForItemDetailReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/dto/UserForItemDetailReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/dto/UserForItemDetailRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/dto/UserForItemDetailRespDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/dto/UserInfoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/dto/UserInfoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/dto/UserSyncEsDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/dto/UserSyncEsDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/enums/GenderEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/enums/GenderEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/enums/UserStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-api/target/classes/com/secondhand/user/enums/UserStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/UserServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/UserServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/controller/FavoriteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/controller/FavoriteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/controller/FavoriteInnerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/controller/FavoriteInnerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/controller/UserInnerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/controller/UserInnerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/controller/UserPublicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/controller/UserPublicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/AddressConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/AddressConvert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/AddressConvertImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/AddressConvertImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/BrowseHistoryConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/BrowseHistoryConvert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/BrowseHistoryConvertImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/BrowseHistoryConvertImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/FavoriteConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/FavoriteConvert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/FavoriteConvertImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/FavoriteConvertImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/UserConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/UserConvert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/UserConvertImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/convert/UserConvertImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/listener/BrowseHistoryListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/listener/BrowseHistoryListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/listener/ItemPublishMessageListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/listener/ItemPublishMessageListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/mapper/AddressMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/mapper/AddressMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/mapper/BrowseHistoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/mapper/BrowseHistoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/mapper/FavoriteMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/mapper/FavoriteMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/mapper/UserInfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/mapper/UserInfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/mapper/UserStatisticsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/mapper/UserStatisticsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/domain/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/domain/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/domain/BrowseHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/domain/BrowseHistory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/domain/Favorite.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/domain/Favorite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/domain/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/domain/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/domain/UserStatistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/domain/UserStatistics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/dto/AddressAddReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/dto/AddressAddReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/dto/AddressSetDefaultReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/dto/AddressSetDefaultReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/dto/AddressUpdateReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/dto/AddressUpdateReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/dto/UserActionReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/dto/UserActionReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/dto/UserRegisterReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/dto/UserRegisterReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/vo/AddressRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/vo/AddressRespDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/vo/UserActionRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/pojo/vo/UserActionRespDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/AddressService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/AddressService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/BrowseHistoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/BrowseHistoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/FavoriteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/FavoriteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/UserInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/UserInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/UserStatisticsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/UserStatisticsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/impl/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/impl/AddressServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/impl/BrowseHistoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/impl/BrowseHistoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/impl/FavoriteServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/impl/FavoriteServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/impl/UserInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/impl/UserInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/impl/UserStatisticsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/classes/com/secondhand/user/service/impl/UserStatisticsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/generated-sources/annotations/com/secondhand/user/convert/AddressConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/generated-sources/annotations/com/secondhand/user/convert/AddressConvertImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/generated-sources/annotations/com/secondhand/user/convert/BrowseHistoryConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/generated-sources/annotations/com/secondhand/user/convert/BrowseHistoryConvertImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/generated-sources/annotations/com/secondhand/user/convert/FavoriteConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/generated-sources/annotations/com/secondhand/user/convert/FavoriteConvertImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/generated-sources/annotations/com/secondhand/user/convert/UserConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core-business/user-service/user-biz/target/generated-sources/annotations/com/secondhand/user/convert/UserConvertImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core-business/user-service/user-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/client/InteractionFeignClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/client/InteractionFeignClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/config/InteractionFeignAutoConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/config/InteractionFeignAutoConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/req/CommentPublishReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/req/CommentPublishReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/req/CommentQueryReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/req/CommentQueryReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/req/LikeReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/req/LikeReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/req/LikeStatusReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/req/LikeStatusReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/req/PostPageReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/req/PostPageReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/req/PostPublishReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/req/PostPublishReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/resp/CommentRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/resp/CommentRespDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/resp/PostRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/resp/PostRespDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/resp/PostSyncEsDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/dto/resp/PostSyncEsDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/enums/BizTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/enums/BizTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/enums/PostStatusEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/classes/com/secondhand/interaction/enums/PostStatusEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/InteractionServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/InteractionServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/controller/InteractionAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/controller/InteractionAdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/controller/InteractionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/controller/InteractionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/controller/InteractionInnerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/controller/InteractionInnerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/controller/InteractionPublicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/controller/InteractionPublicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/convert/InteractionConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/convert/InteractionConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/convert/InteractionConverterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/convert/InteractionConverterImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/mapper/CommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/mapper/CommentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/mapper/LikeRecordMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/mapper/LikeRecordMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/mapper/PostMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/mapper/PostMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/pojo/domain/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/pojo/domain/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/pojo/domain/LikeRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/pojo/domain/LikeRecord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/pojo/domain/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/pojo/domain/Post.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/service/CommentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/service/LikeRecordService.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/service/LikeRecordService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/service/PostService.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/service/PostService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/service/impl/CommentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/service/impl/CommentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/service/impl/LikeRecordServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/service/impl/LikeRecordServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/service/impl/PostServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/classes/com/secondhand/interaction/service/impl/PostServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/generated-sources/annotations/com/secondhand/interaction/convert/InteractionConverterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/generated-sources/annotations/com/secondhand/interaction/convert/InteractionConverterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/interaction-service/interaction-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/SearchServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/SearchServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/biz/strategy/sort/ItemSortEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/config/ElasticsearchConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/config/ElasticsearchConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/constants/CanalConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/constants/CanalConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/constants/ItemEsConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/constants/ItemEsConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/constants/PostEsConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/constants/PostEsConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/controller/SearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/controller/SearchController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/controller/SearchHistoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/controller/SearchHistoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/convert/SearchHistoryConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/convert/SearchHistoryConvert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/convert/SearchHistoryConvertImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/convert/SearchHistoryConvertImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/enums/PostSortEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/enums/PostSortEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/enums/SearchTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/enums/SearchTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/listener/CanalSyncListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/listener/CanalSyncListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/mapper/SearchHistoryMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/mapper/SearchHistoryMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/CanalMessageDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/CanalMessageDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/ItemSearchReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/ItemSearchReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/PostSearchReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/PostSearchReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/domain/SearchHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/domain/SearchHistory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/dto/req/SearchHistoryAddReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/dto/req/SearchHistoryAddReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/dto/req/SearchHistoryClearReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/dto/req/SearchHistoryClearReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/dto/req/SearchHistoryListReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/dto/req/SearchHistoryListReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/dto/resp/SearchHistoryRespDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/pojo/dto/resp/SearchHistoryRespDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/ItemSearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/ItemSearchService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/ItemSyncService.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/ItemSyncService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/PostSearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/PostSearchService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/PostSyncService.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/PostSyncService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/SearchHistoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/SearchHistoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/impl/ItemSearchServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/impl/ItemSearchServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/impl/ItemSyncServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/impl/ItemSyncServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/impl/PostSearchServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/impl/PostSearchServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/impl/PostSyncServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/impl/PostSyncServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/impl/SearchHistoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/service/impl/SearchHistoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/CanalSyncStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/CanalSyncStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/ItemFilterStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/ItemFilterStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/PostFilterStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/PostFilterStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/impl/ItemPriceFilterStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/impl/ItemPriceFilterStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/impl/ItemPublishTimeFilterStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/impl/ItemPublishTimeFilterStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/impl/ItemSyncStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/impl/ItemSyncStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/impl/PostAuthorFilterStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/impl/PostAuthorFilterStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/impl/PostStatusFilterStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/impl/PostStatusFilterStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/impl/PostSyncStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/classes/com/secondhand/search/strategy/impl/PostSyncStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extension-service/search-service/target/generated-sources/annotations/com/secondhand/search/convert/SearchHistoryConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/extension-service/search-service/target/generated-sources/annotations/com/secondhand/search/convert/SearchHistoryConvertImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/internship/gateway/GatewayServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/java/com/internship/gateway/filter/AuthGlobalFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/src/test/java/com/internship/gateway/GatewayServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/internship/gateway/GatewayServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/internship/gateway/filter/AuthGlobalFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/GatewayServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/GatewayServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/config/GatewaySecurityProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/config/GatewaySecurityProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/constants/FilterOrderConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/constants/FilterOrderConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/exception/GatewayBizException.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/exception/GatewayBizException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/filter/AuthGlobalFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/filter/AuthGlobalFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/filter/BlacklistFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/filter/BlacklistFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/filter/InnerBlockFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/filter/InnerBlockFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/filter/RoleAuthorizeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/filter/RoleAuthorizeFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/handler/JsonExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/classes/com/secondhand/gateway/handler/JsonExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/commom-mq/target/classes/com/secondhand/mq/config/RabbitMqConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/commom-mq/target/classes/com/secondhand/mq/config/RabbitMqConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/commom-mq/target/classes/com/secondhand/mq/constants/ItemMqConst.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/commom-mq/target/classes/com/secondhand/mq/constants/ItemMqConst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/commom-mq/target/classes/com/secondhand/mq/event/ItemViewedEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/commom-mq/target/classes/com/secondhand/mq/event/ItemViewedEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/commom-mq/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/commom-mq/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-cloud/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/config/JacksonConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/config/JacksonConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/constants/HttpConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/constants/HttpConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/domain/UserContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/domain/UserContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/enums/ErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/enums/ErrorCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/enums/UserTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/enums/UserTypeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/enums/YesOrNoEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/enums/YesOrNoEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/exception/BizException.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/exception/BizException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/jackson/BaseEnumDeserializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/jackson/BaseEnumDeserializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/query/PageQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/query/PageQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/result/PageResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/result/PageResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/result/Result$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/result/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/result/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/utils/IdGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/utils/IdGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/utils/JwtUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/utils/JwtUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/utils/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-core/target/classes/com/secondhand/common/utils/JwtUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-mybatis/target/classes/com/secondhand/mybatis/base/BaseAuditPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-mybatis/target/classes/com/secondhand/mybatis/base/BaseAuditPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-mybatis/target/classes/com/secondhand/mybatis/base/BaseTimePO.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-mybatis/target/classes/com/secondhand/mybatis/base/BaseTimePO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-mybatis/target/classes/com/secondhand/mybatis/config/MybatisPlusConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-mybatis/target/classes/com/secondhand/mybatis/config/MybatisPlusConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-mybatis/target/classes/com/secondhand/mybatis/enums/IsDeleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-mybatis/target/classes/com/secondhand/mybatis/enums/IsDeleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-mybatis/target/classes/com/secondhand/mybatis/handler/BaseEnumTypeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-mybatis/target/classes/com/secondhand/mybatis/handler/BaseEnumTypeHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-mybatis/target/classes/com/secondhand/mybatis/handler/MyMetaObjectHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-mybatis/target/classes/com/secondhand/mybatis/handler/MyMetaObjectHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/config/FeignConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/config/FeignConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/config/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/config/WebMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/context/UserContextHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/context/UserContextHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/factory/IntegerToEnumConverterFactory$IntegerToEnumConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/factory/IntegerToEnumConverterFactory$IntegerToEnumConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/factory/IntegerToEnumConverterFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/factory/IntegerToEnumConverterFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/handler/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/interceptor/FeignRequestInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/interceptor/FeignRequestInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/interceptor/InnerAuthInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/interceptor/InnerAuthInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/interceptor/UserInfoInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/infrastructure/common-web/target/classes/com/secondhand/common_web/interceptor/UserInfoInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/infrastructure/common-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-service/template-api/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/template-service/template-api/target/classes/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-service/template-api/target/classes/com/secondhand/template/config/TemplateFeignAutoConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/template-service/template-api/target/classes/com/secondhand/template/config/TemplateFeignAutoConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-service/template-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-service/template-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-service/template-biz/target/classes/com/secondhand/template/TemplateServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/template-service/template-biz/target/classes/com/secondhand/template/TemplateServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-service/template-biz/target/classes/com/secondhand/template/controller/TemplateAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/template-service/template-biz/target/classes/com/secondhand/template/controller/TemplateAdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-service/template-biz/target/classes/com/secondhand/template/controller/TemplateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/template-service/template-biz/target/classes/com/secondhand/template/controller/TemplateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-service/template-biz/target/classes/com/secondhand/template/controller/TemplateInnerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/template-service/template-biz/target/classes/com/secondhand/template/controller/TemplateInnerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-service/template-biz/target/classes/com/secondhand/template/controller/TemplatePublicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/template-service/template-biz/target/classes/com/secondhand/template/controller/TemplatePublicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-service/template-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template-service/template-biz/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/internship/user/UserServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/internship/user/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/internship/user/domain/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/internship/user/mapper/UserInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/internship/user/service/UserInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/internship/user/service/impl/UserInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application-local.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/generator/mapper/UserInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application-local.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/bootstrap.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/internship/user/UserServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/internship/user/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/internship/user/domain/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/internship/user/mapper/UserInfoMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/internship/user/service/UserInfoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/internship/user/service/impl/UserInfoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/generator/mapper/UserInfoMapper.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +479,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -22,14 +488,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/3Xyao/Second-hand-trading-platform.git",
-    "accountId": "3984888a-6f06-4b99-8c6a-5e1d11a7caec"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;3Xyao&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/3Xyao/second-hand.git&quot;,
+    &quot;accountId&quot;: &quot;3984888a-6f06-4b99-8c6a-5e1d11a7caec&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.12/spring-boot-2.7.12.jar!/org/springframework/boot/SpringApplication.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -38,27 +514,55 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="3AhJez2FpZtjxtlOGoKBAUXLimz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.auth-service [clean].executor": "Run",
+    "Maven.auth-service [compile].executor": "Run",
+    "Maven.auth-service [install].executor": "Run",
+    "Maven.commom-mq [clean].executor": "Run",
+    "Maven.commom-mq [compile].executor": "Run",
+    "Maven.commom-mq [install].executor": "Run",
     "Maven.gateway-service [clean].executor": "Run",
+    "Maven.message-biz [clean].executor": "Run",
+    "Maven.message-biz [compile].executor": "Run",
+    "Maven.message-biz [validate].executor": "Run",
+    "Maven.message-service [clean].executor": "Run",
+    "Maven.message-service [compile].executor": "Run",
+    "Maven.message-service [install].executor": "Run",
+    "Maven.order-service [clean].executor": "Run",
+    "Maven.order-service [compile].executor": "Run",
+    "Maven.order-service [install].executor": "Run",
+    "Maven.second-hand_trading_platform [clean].executor": "Run",
+    "Maven.second-hand_trading_platform [compile].executor": "Run",
     "Maven.second-hand_trading_platform [dependency:resolve...].executor": "Run",
+    "Maven.second-hand_trading_platform [install].executor": "Run",
+    "Maven.second-hand_trading_platform [validate].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.AdminServiceApplication.executor": "Run",
     "Spring Boot.AuthServiceApplication.executor": "Run",
     "Spring Boot.GatewayServiceApplication.executor": "Run",
+    "Spring Boot.InteractionServiceApplication.executor": "Run",
+    "Spring Boot.ItemServiceApplication.executor": "Run",
+    "Spring Boot.MessageServiceApplication.executor": "Run",
+    "Spring Boot.OrderServiceApplication.executor": "Run",
+    "Spring Boot.SearchServiceApplication.executor": "Run",
     "Spring Boot.UserServiceApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/24110/Desktop/毕设/Second-hand trading platform/second-hand trading platform/extension-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,17 +571,22 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true",
     "应用程序.UserServiceApplication.executor": "Run"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
+      "mongo",
       "mysql"
     ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\extension-service" />
+      <recent name="C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\core-business" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\common-web-service\src\main\resources" />
       <recent name="C:\Users\24110\Desktop\毕设\Second-hand trading platform\second-hand trading platform\common-web-service\src\main\java\com\internship\common_web" />
@@ -92,6 +601,7 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn dependency:resolve -U" />
+      <command value="mvn clean" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -105,9 +615,14 @@
         <entry key="SpringBootApplicationConfigurationType">
           <value>
             <map>
-              <entry key="AdminServiceApplication" value="FAILED" />
+              <entry key="AdminServiceApplication" value="STOPPED" />
               <entry key="AuthServiceApplication" value="STOPPED" />
               <entry key="GatewayServiceApplication" value="STOPPED" />
+              <entry key="InteractionServiceApplication" value="STOPPED" />
+              <entry key="ItemServiceApplication" value="STOPPED" />
+              <entry key="MessageServiceApplication" value="STOPPED" />
+              <entry key="OrderServiceApplication" value="STOPPED" />
+              <entry key="SearchServiceApplication" value="STOPPED" />
               <entry key="UserServiceApplication" value="STOPPED" />
             </map>
           </value>
@@ -115,7 +630,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UserServiceApplication">
+  <component name="RunManager" selected="Spring Boot.OrderServiceApplication">
     <configuration name="UserServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.internship.user.UserServiceApplication" />
       <module name="user-service" />
@@ -130,39 +645,79 @@
       </method>
     </configuration>
     <configuration name="AdminServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="admin-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.internship.admin.AdminServiceApplication" />
+      <module name="admin-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.secondhand.admin.AdminServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="auth-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.internship.auth.AuthServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.secondhand.auth.AuthServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="gateway-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.internship.gateway.GatewayServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.secondhand.gateway.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InteractionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="interaction-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.secondhand.interaction.InteractionServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="item-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.secondhand.item.ItemServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="message-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.secondhand.message.MessageServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.secondhand.order.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="search-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.secondhand.search.SearchServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="user-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.internship.user.UserServiceApplication" />
+      <module name="user-biz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.secondhand.user.UserServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.UserServiceApplication" />
+      <item itemvalue="Spring Boot.MessageServiceApplication" />
+      <item itemvalue="Spring Boot.InteractionServiceApplication" />
+      <item itemvalue="Spring Boot.ItemServiceApplication" />
+      <item itemvalue="Spring Boot.OrderServiceApplication" />
+      <item itemvalue="Spring Boot.SearchServiceApplication" />
       <item itemvalue="Spring Boot.AdminServiceApplication" />
       <item itemvalue="Spring Boot.AuthServiceApplication" />
-      <item itemvalue="Spring Boot.GatewayServiceApplication" />
       <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.GatewayServiceApplication" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -193,6 +748,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.secondhand.common.exception.BizException" package="com.secondhand.common.exception" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

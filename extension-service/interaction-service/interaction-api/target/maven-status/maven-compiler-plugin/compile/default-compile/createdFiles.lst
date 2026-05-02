@@ -1,6 +1,0 @@
-com\secondhand\interaction\dto\resp\PostRespDTO.class
-com\secondhand\interaction\enums\PostStatusEnum.class
-com\secondhand\interaction\client\InteractionFeignClient.class
-com\secondhand\interaction\config\InteractionFeignAutoConfiguration.class
-com\secondhand\interaction\enums\BizTypeEnum.class
-com\secondhand\interaction\dto\req\LikeReqDTO.class

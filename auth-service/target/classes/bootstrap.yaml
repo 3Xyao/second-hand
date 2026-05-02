@@ -7,7 +7,7 @@ spring:
     nacos:
       server-addr: ${NACOS_HOST:192.168.209.128:8848}
       username: ${NACOS_USER:nacos}
-      password: ${NACOS_PASS:nacos}
+      password: ${NACOS_PWD:nacos}
       config:
         file-extension: yaml
         shared-configs:

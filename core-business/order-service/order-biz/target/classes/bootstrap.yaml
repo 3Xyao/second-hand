@@ -13,3 +13,4 @@ spring:
         shared-configs:
           - data-id: mysql-config.yaml
           - data-id: jwt-config.yaml
+          - data-id: mq-config.yaml

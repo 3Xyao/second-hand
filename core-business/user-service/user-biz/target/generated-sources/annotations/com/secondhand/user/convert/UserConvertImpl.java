@@ -4,6 +4,7 @@ import com.secondhand.user.dto.UserDTO;
 import com.secondhand.user.dto.UserForItemDetailRespDTO;
 import com.secondhand.user.dto.UserInfoDTO;
 import com.secondhand.user.dto.UserSyncEsDTO;
+import com.secondhand.user.dto.admin.UserAdminRespDTO;
 import com.secondhand.user.pojo.domain.UserInfo;
 import com.secondhand.user.pojo.domain.UserStatistics;
 import java.util.ArrayList;
@@ -13,8 +14,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-04-14T21:52:12+0800",
-    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 17.0.12 (Oracle Corporation)"
+    date = "2026-05-02T12:03:14+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.46.0.v20260407-0427, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class UserConvertImpl implements UserConvert {
@@ -106,6 +107,42 @@ public class UserConvertImpl implements UserConvert {
         List<UserInfoDTO> list = new ArrayList<UserInfoDTO>( userInfoList.size() );
         for ( UserInfo userInfo : userInfoList ) {
             list.add( toUserInfoDTO( userInfo ) );
+        }
+
+        return list;
+    }
+
+    @Override
+    public UserAdminRespDTO toUserAdminRespDTO(UserInfo userInfo) {
+        if ( userInfo == null ) {
+            return null;
+        }
+
+        UserAdminRespDTO userAdminRespDTO = new UserAdminRespDTO();
+
+        userAdminRespDTO.setAvatar( userInfo.getAvatarUrl() );
+        userAdminRespDTO.setId( userInfo.getId() );
+        userAdminRespDTO.setUsername( userInfo.getUsername() );
+        userAdminRespDTO.setNickname( userInfo.getNickname() );
+        userAdminRespDTO.setPhone( userInfo.getPhone() );
+        userAdminRespDTO.setEmail( userInfo.getEmail() );
+        userAdminRespDTO.setCreditScore( userInfo.getCreditScore() );
+        userAdminRespDTO.setCreateTime( userInfo.getCreateTime() );
+
+        userAdminRespDTO.setStatus( userInfo.getStatus() != null ? userInfo.getStatus().getCode() : null );
+
+        return userAdminRespDTO;
+    }
+
+    @Override
+    public List<UserAdminRespDTO> toUserAdminRespDTOList(List<UserInfo> userInfoList) {
+        if ( userInfoList == null ) {
+            return null;
+        }
+
+        List<UserAdminRespDTO> list = new ArrayList<UserAdminRespDTO>( userInfoList.size() );
+        for ( UserInfo userInfo : userInfoList ) {
+            list.add( toUserAdminRespDTO( userInfo ) );
         }
 
         return list;

@@ -1,7 +1,0 @@
-com\secondhand\common_web\interceptor\InnerAuthInterceptor.class
-com\secondhand\common_web\config\FeignConfig.class
-com\secondhand\common_web\interceptor\UserInfoInterceptor.class
-com\secondhand\common_web\config\WebMvcConfig.class
-com\secondhand\common_web\interceptor\FeignRequestInterceptor.class
-com\secondhand\common_web\handler\GlobalExceptionHandler.class
-com\secondhand\common_web\context\UserContextHolder.class

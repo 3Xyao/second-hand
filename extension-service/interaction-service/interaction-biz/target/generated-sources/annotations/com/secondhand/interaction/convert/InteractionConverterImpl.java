@@ -1,5 +1,6 @@
 package com.secondhand.interaction.convert;
 
+import com.secondhand.interaction.dto.admin.PostAdminRespDTO;
 import com.secondhand.interaction.dto.req.CommentPublishReqDTO;
 import com.secondhand.interaction.dto.req.LikeReqDTO;
 import com.secondhand.interaction.dto.req.PostPublishReqDTO;
@@ -17,8 +18,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-04-14T23:19:21+0800",
-    comments = "version: 1.5.5.Final, compiler: javac, environment: Java 17.0.12 (Oracle Corporation)"
+    date = "2026-05-02T12:03:10+0800",
+    comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.46.0.v20260407-0427, environment: Java 21.0.10 (Eclipse Adoptium)"
 )
 @Component
 public class InteractionConverterImpl implements InteractionConverter {
@@ -32,8 +33,8 @@ public class InteractionConverterImpl implements InteractionConverter {
         LikeRecord likeRecord = new LikeRecord();
 
         if ( reqDTO != null ) {
-            likeRecord.setBizType( mapBizType( reqDTO.getBizType() ) );
             likeRecord.setBizId( reqDTO.getBizId() );
+            likeRecord.setBizType( mapBizType( reqDTO.getBizType() ) );
         }
         likeRecord.setUserId( userId );
 
@@ -49,13 +50,13 @@ public class InteractionConverterImpl implements InteractionConverter {
         Post post = new Post();
 
         if ( reqDTO != null ) {
-            post.setTitle( reqDTO.getTitle() );
             post.setContent( reqDTO.getContent() );
             List<String> list = reqDTO.getImages();
             if ( list != null ) {
                 post.setImages( new ArrayList<String>( list ) );
             }
             post.setRelateSpuId( reqDTO.getRelateSpuId() );
+            post.setTitle( reqDTO.getTitle() );
         }
         post.setUserId( userId );
         post.setStatus( com.secondhand.interaction.enums.PostStatusEnum.NORMAL );
@@ -75,11 +76,11 @@ public class InteractionConverterImpl implements InteractionConverter {
         Comment comment = new Comment();
 
         if ( reqDTO != null ) {
-            comment.setBizType( mapBizType( reqDTO.getBizType() ) );
             comment.setBizId( reqDTO.getBizId() );
+            comment.setBizType( mapBizType( reqDTO.getBizType() ) );
+            comment.setContent( reqDTO.getContent() );
             comment.setParentId( reqDTO.getParentId() );
             comment.setReplyToUserId( reqDTO.getReplyToUserId() );
-            comment.setContent( reqDTO.getContent() );
         }
         comment.setUserId( userId );
         comment.setLikeCount( 0 );
@@ -130,6 +131,29 @@ public class InteractionConverterImpl implements InteractionConverter {
     }
 
     @Override
+    public PostAdminRespDTO toPostAdminRespDTO(Post post) {
+        if ( post == null ) {
+            return null;
+        }
+
+        PostAdminRespDTO postAdminRespDTO = new PostAdminRespDTO();
+
+        postAdminRespDTO.setId( post.getId() );
+        postAdminRespDTO.setUserId( post.getUserId() );
+        postAdminRespDTO.setTitle( post.getTitle() );
+        postAdminRespDTO.setContent( post.getContent() );
+        postAdminRespDTO.setImages( post.getImages() );
+        postAdminRespDTO.setViewCount( post.getViewCount() );
+        postAdminRespDTO.setLikeCount( post.getLikeCount() );
+        postAdminRespDTO.setCommentCount( post.getCommentCount() );
+        postAdminRespDTO.setCreateTime( post.getCreateTime() );
+
+        postAdminRespDTO.setStatus( post.getStatus() != null ? post.getStatus().getCode() : null );
+
+        return postAdminRespDTO;
+    }
+
+    @Override
     public List<PostRespDTO> toPostRespList(List<Post> posts) {
         if ( posts == null ) {
             return null;
@@ -138,6 +162,20 @@ public class InteractionConverterImpl implements InteractionConverter {
         List<PostRespDTO> list = new ArrayList<PostRespDTO>( posts.size() );
         for ( Post post : posts ) {
             list.add( toPostRespDTO( post ) );
+        }
+
+        return list;
+    }
+
+    @Override
+    public List<PostAdminRespDTO> toPostAdminRespDTOList(List<Post> posts) {
+        if ( posts == null ) {
+            return null;
+        }
+
+        List<PostAdminRespDTO> list = new ArrayList<PostAdminRespDTO>( posts.size() );
+        for ( Post post : posts ) {
+            list.add( toPostAdminRespDTO( post ) );
         }
 
         return list;

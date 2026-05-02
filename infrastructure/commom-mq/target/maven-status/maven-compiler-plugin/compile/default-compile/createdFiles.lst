@@ -1,3 +1,0 @@
-com\secondhand\mq\constants\ItemMqConst.class
-com\secondhand\mq\config\RabbitMqConfig.class
-com\secondhand\mq\event\ItemViewedEvent.class
